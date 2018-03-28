@@ -1,0 +1,47 @@
+/* Universal Style */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 64rem;
+  margin: 0 auto;
+}
+
+.conteiner {
+  display: flex;
+}
+/* Header section */
+header {
+  height: 4rem;
+  width: 100%;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  justify-content: flex-start;
+  align-items: center;
+  line-height: 1.7rem
+}
+
+.logo strong {
+  font-weight: bold;
+}
+
+header nav {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+header a {
+  margin-left: 1rem;
+}
+
+/* Thesis video section */
+video {
+  width: 60%;
+}
