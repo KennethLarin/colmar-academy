@@ -5,6 +5,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
+  line-height: 1.2;
   max-width: 64rem;
   margin: 0 auto;
 }
@@ -41,6 +42,52 @@ header nav {
 
 header a {
   margin-left: 1rem;
+}
+
+/* Banner Section */
+.banner {
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  background-color: #ddd;
+  width: 100%;
+}
+
+.banner-image {
+  width: 60%;
+  overflow: hidden;
+  margin-right: 1.5rem;
+}
+
+.banner-image img {
+  width: 100%;
+  height: auto;
+}
+
+.banner-info {
+  color: #555;
+  width: 30%;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.banner-info p {
+  margin: 1rem auto;
+}
+
+.banner-button {
+  width: 100%;
+  background-color: #555;
+  text-align: center;
+  font-weight: normal;
+  padding: 0.5rem 0;
+}
+
+.banner-button a{
+  color: white;
 }
 
 /* Thesis video section */
