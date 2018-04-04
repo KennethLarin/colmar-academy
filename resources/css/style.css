@@ -122,9 +122,24 @@ aside {
   font-size: 0.625rem;
 }
 
+/* small news conteiner */
 .small-news {
   width: 40%;
   flex-flow: column;
+}
+
+.news-bite {
+  flex-flow: row;
+}
+
+.picture {
+  width: 35%;
+}
+
+.picture img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 
