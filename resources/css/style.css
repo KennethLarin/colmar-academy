@@ -172,6 +172,39 @@ h4 {
   color: dodgerblue;
 }
 
+/* Courses section */
+.courses {
+  max-width: 100%;
+  flex-wrap: wrap;
+  background-color: #ddd;
+  padding: 2rem 4.5rem;
+}
+
+.courses h2 {
+  margin-bottom: 2rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.courses .course {
+  flex-flow: column;
+  background-color: white;
+  width: 33.33%
+}
+
+.course .picture {
+  width: 100%;
+  overflow: hidden;
+}
+
+.course .picture img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+
 /* Thesis video section */
 video {
   width: 60%;
