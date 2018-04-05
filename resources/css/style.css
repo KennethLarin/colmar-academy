@@ -218,8 +218,65 @@ h5 {
   margin: 0.5rem 0;
 }
 
-
 /* Thesis video section */
+.thesis {
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding: 2rem 1.5rem;
+}
+.thesis h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.thesis h4 {
+  margin-bottom: 0.5rem;
+}
+
+/* main exhibit */
+.thesis-main {
+  max-width: 60%;
+  margin-right: 1.5rem;
+}
+
+.thesis-other {
+  flex-flow: column;
+  max-width: 40%;
+}
+
 video {
-  width: 60%;
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+/* secondary exhibits */
+.secondary {
+  align-items: center;
+}
+
+.secondary .picture {
+  max-width: 35%;
+  overflow: hidden;
+}
+
+.secondary .picture img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.secondary .content {
+  max-width: 65%;
+  margin: 1rem;
+}
+
+
+/* Footer settings */
+footer {
+  border-top: 1px solid gray;
+  max-width: 100%;
+  padding: 1rem 1.5rem;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.7rem;
 }
