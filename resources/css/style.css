@@ -187,6 +187,7 @@ h4 {
   text-align: center;
 }
 
+/* cards formating */
 .courses .course {
   flex-flow: column;
   background-color: white;
@@ -208,6 +209,13 @@ h4 {
 
 .course  .description {
   padding: 1rem 1rem 1.5rem 1rem;
+}
+
+/* card description settings */
+h5 {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
 }
 
 
