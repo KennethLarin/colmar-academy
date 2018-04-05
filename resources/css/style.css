@@ -157,6 +157,20 @@ aside {
   display: block;
 }
 
+h4 {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.news-info p {
+  margin: 0.5rem 0;
+  font-size: 0.75rem;
+}
+
+.news-info a {
+  font-size: 0.75rem;
+  color: dodgerblue;
+}
 
 /* Thesis video section */
 video {
