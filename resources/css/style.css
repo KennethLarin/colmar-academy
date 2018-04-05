@@ -177,11 +177,11 @@ h4 {
   max-width: 100%;
   flex-wrap: wrap;
   background-color: #ddd;
-  padding: 2rem 4.5rem;
+  padding: 1rem 3.5rem;
 }
 
 .courses h2 {
-  margin-bottom: 2rem;
+  margin: 1rem;
   display: block;
   width: 100%;
   text-align: center;
@@ -190,18 +190,24 @@ h4 {
 .courses .course {
   flex-flow: column;
   background-color: white;
-  width: 33.33%
+  width: 28%;
+  margin: 1rem;
 }
 
 .course .picture {
   width: 100%;
   overflow: hidden;
+  padding: 0;
 }
 
 .course .picture img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.course  .description {
+  padding: 1rem 1rem 1.5rem 1rem;
 }
 
 
