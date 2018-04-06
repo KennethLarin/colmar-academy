@@ -115,6 +115,38 @@ h1 {
   color: white;
 }
 
+@media only screen and (max-width: 480px) {
+  .banner {
+    flex-flow: column;
+    padding: 0;
+  }
+
+  .banner-image,
+  .banner-info {
+    width: 100%;
+    margin: 0;
+  }
+
+  .banner-info {
+    padding: 2rem 0;
+  }
+
+  .banner-info h1 {
+    margin: 0 1rem 2rem 1rem;
+  }
+
+  .banner-info p {
+    margin: 0 1rem 1.5rem 1rem;
+  }
+
+  /* TODO fix the button margin */
+  .banner-button {
+    margin: 0 1rem;
+    width: 100%;
+  }
+
+}
+
 /* News section */
 .news {
   margin: 0 auto;
