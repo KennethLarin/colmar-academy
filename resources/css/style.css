@@ -180,6 +180,7 @@ aside {
   font-size: 0.625rem;
 }
 
+
 /* small news conteiner */
 .small-news {
   width: 40%;
@@ -224,6 +225,28 @@ h4 {
 .news-info a {
   font-size: 0.75rem;
   color: dodgerblue;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-news {
+    display: none;
+  }
+
+  .small-news {
+    width: 100%;
+    padding: 1rem 1rem 2rem 1rem;
+  }
+
+  .news-bite {
+    border: none;
+    flex-flow: column;
+  }
+
+  .news-bite .hidden {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
 }
 
 /* Courses section */
