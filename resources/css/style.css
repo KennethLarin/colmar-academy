@@ -235,13 +235,13 @@ h5 {
 
 /* main exhibit */
 .thesis-main {
-  max-width: 60%;
+  width: 58%;
   margin-right: 1.5rem;
 }
 
 .thesis-other {
   flex-flow: column;
-  max-width: 40%;
+  width: 38%;
 }
 
 video {
@@ -252,11 +252,14 @@ video {
 /* secondary exhibits */
 .secondary {
   align-items: center;
+  padding: 1rem;
 }
 
 .secondary .picture {
-  max-width: 35%;
+  width: 35%;
   overflow: hidden;
+  margin-right: 1rem;
+  padding: 0;
 }
 
 .secondary .picture img {
@@ -266,8 +269,7 @@ video {
 }
 
 .secondary .content {
-  max-width: 65%;
-  margin: 1rem;
+  width: 65%;
 }
 
 
