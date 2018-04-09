@@ -301,6 +301,24 @@ h5 {
   margin: 0.5rem 0;
 }
 
+@media only screen and (max-width: 480px) {
+  .description h5,
+  .description p,
+  .course .picture {
+    display: none;
+  }
+
+  .courses {
+    flex-flow: column;
+    background-color: white;
+  }
+
+  .courses .course {
+    width: 100%;
+    background-color: #ddd;
+  }
+}
+
 /* Thesis video section */
 .thesis {
   flex-wrap: wrap;
