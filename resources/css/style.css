@@ -247,6 +247,12 @@ h4 {
     height: auto;
     display: block;
   }
+
+  .news-info {
+    width: 100%;
+    padding-left: 1rem;
+    margin-bottom: 2rem;
+  }
 }
 
 /* Courses section */
