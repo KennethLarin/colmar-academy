@@ -121,14 +121,14 @@ h1 {
     padding: 0;
   }
 
-  .banner-image,
-  .banner-info {
+  .banner-image {
     width: 100%;
     margin: 0;
   }
 
   .banner-info {
     padding: 2rem 0;
+    width: 100%;
   }
 
   .banner-info h1 {
@@ -139,10 +139,9 @@ h1 {
     margin: 0 1rem 1.5rem 1rem;
   }
 
-  /* TODO fix the button margin */
-  .banner-button {
-    margin: 0 1rem;
-    width: 100%;
+  .banner-info .banner-button {
+    margin: auto 1rem;
+    max-width: 90%;
   }
 
 }
@@ -311,11 +310,13 @@ h5 {
   .courses {
     flex-flow: column;
     background-color: white;
+    padding: 1rem;
   }
 
   .courses .course {
     width: 100%;
     background-color: #ddd;
+    margin: 0.5rem auto;
   }
 }
 
