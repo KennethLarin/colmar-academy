@@ -352,6 +352,18 @@ video {
   margin-bottom: 1.5rem;
 }
 
+/* Mobile configuration for Main thesis exhibit */
+@media only screen and (max-width: 840px) {
+  .thesis {
+    padding: 0;
+  }
+
+  .thesis-main {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
 /* secondary exhibits */
 .secondary {
   align-items: center;
