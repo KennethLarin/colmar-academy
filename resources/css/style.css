@@ -4,10 +4,14 @@ html {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   line-height: 1.2;
   max-width: 64rem;
   margin: 0 auto;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
 }
 
 .conteiner {
