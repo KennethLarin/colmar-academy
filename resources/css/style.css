@@ -18,8 +18,7 @@ p {
 
 h1,
 h2,
-h4,
-h5 {
+ {
   color: #1d1e18;
 }
 
@@ -324,6 +323,7 @@ h4 {
   background-color: rgba(68, 94, 147, 0.75);
   width: 28%;
   margin: 1rem;
+  color: #fafafa;
 }
 
 .course .picture {
@@ -342,12 +342,16 @@ h4 {
   padding: 1rem 1rem 1.5rem 1rem;
 }
 
+.description p {
+  color: #fafafa;
+}
+
 /* card description settings */
 h5 {
   font-size: 0.7rem;
   text-transform: uppercase;
   margin: 0.5rem 0;
-  color: #fafafa;
+  color: #b5b5b5;
 }
 
 @media only screen and (max-width: 480px) {
