@@ -13,6 +13,14 @@ body {
 
 p {
   font-family: "Source Sans Pro", sans-serif;
+  color: #1d1e18;
+}
+
+h1,
+h2,
+h4,
+h5 {
+  color: #1d1e18;
 }
 
 .conteiner {
@@ -72,6 +80,11 @@ header a {
   color: #fafafa;
 }
 
+header a:hover {
+  font-weight: bold;
+  color:#fff;
+}
+
 @media only screen and (max-width: 480px) {
   nav.mobile {
     justify-content: space-around;
@@ -102,7 +115,7 @@ header a {
 }
 
 .banner-info {
-  color: #555;
+  color: #1d1e18;
   width: 30%;
   font-weight: bold;
 }
@@ -118,14 +131,23 @@ h1 {
 
 .banner-button {
   width: 100%;
-  background-color: #555;
+  background-color: rgba(68, 94, 147, 0.75);
   text-align: center;
   font-weight: normal;
   padding: 0.5rem 0;
+  box-shadow: 5px 5px 2px rgba(68, 94, 147, 0.25);
 }
 
+
 .banner-button a{
-  color: white;
+  color: #fafafa;
+}
+
+.banner-button:hover {
+  background-color: #445e93;
+  font-weight: bold;
+  color: #fff;
+  box-shadow: 5px 5px 2px rgba(68, 94, 147, 0.50);
 }
 
 @media only screen and (max-width: 480px) {
@@ -167,7 +189,6 @@ h1 {
 .main-news {
   width: 60%;
   padding: 2rem 1.5rem;
-  border-right: 1px solid lightgrey;
 }
 
 .article-image img {
@@ -199,15 +220,25 @@ aside {
   flex-flow: column;
   align-items: center;
   justify-content: center;
+  border-left: 1px solid  rgba(68, 94, 147, 0.5);
+}
+
+.news-bite:first-child {
+  background-color: rgba(68, 94, 147, 0.75);
+}
+
+.news-bite:first-child a {
+  color: #fafafa;
 }
 
 .news-bite {
   flex-flow: row;
-  border: 1px solid gray;
   align-items: center;
   justify-content: center;
   max-width: 100%;
 }
+
+
 
 .news-info {
   width: 65%;
@@ -237,6 +268,10 @@ h4 {
 .news-info a {
   font-size: 0.75rem;
   color: dodgerblue;
+}
+
+.news-info a:hover {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 480px) {
@@ -285,7 +320,7 @@ h4 {
 /* cards formating */
 .courses .course {
   flex-flow: column;
-  background-color: white;
+  background-color: rgba(68, 94, 147, 0.75);
   width: 28%;
   margin: 1rem;
 }
@@ -322,7 +357,7 @@ h5 {
 
   .courses {
     flex-flow: column;
-    background-color: white;
+    background-color: #fafafa;
     padding: 1rem;
   }
 
@@ -357,6 +392,7 @@ h5 {
 .thesis-other {
   flex-flow: column;
   width: 38%;
+  border-left: 1px solid  rgba(68, 94, 147, 0.5);
 }
 
 video {
@@ -378,6 +414,10 @@ video {
 }
 
 /* secondary exhibits */
+.secondary:first-child {
+  background-color: rgba(68, 94, 147, 0.75);
+}
+
 .secondary {
   align-items: center;
   padding: 1rem;
@@ -403,7 +443,7 @@ video {
 
 /* Footer settings */
 footer {
-  border-top: 1px solid gray;
+  border-top: 1px solid firebrick;
   max-width: 100%;
   padding: 1rem 1.5rem;
   align-items: center;
