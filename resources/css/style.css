@@ -227,8 +227,16 @@ aside {
   background-color: rgba(68, 94, 147, 0.75);
 }
 
-.news-bite:first-child a {
+.news-bite:first-child h4 {
   color: #fafafa;
+}
+
+.news-bite:first-child p {
+  color: #fafafa;
+}
+
+.news-bite:first-child a {
+  color: #b5b5b5;
 }
 
 .news-bite {
@@ -237,8 +245,6 @@ aside {
   justify-content: center;
   max-width: 100%;
 }
-
-
 
 .news-info {
   width: 65%;
@@ -422,6 +428,14 @@ video {
 /* secondary exhibits */
 .secondary:first-child {
   background-color: rgba(68, 94, 147, 0.75);
+}
+
+.secondary:first-child h4 {
+  color: #fafafa;
+}
+
+.secondary:first-child p {
+  color: #fafafa;
 }
 
 .secondary {
