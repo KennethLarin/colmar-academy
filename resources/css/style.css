@@ -387,14 +387,19 @@ h5 {
 
   .courses {
     flex-flow: column;
-    background-color: #fafafa;
+    background-color: #445e93;
     padding: 1rem;
+    margin-bottom: 2rem;
   }
 
   .courses .course {
     width: 100%;
-    background-color: #ddd;
+    background-color: #fafafa;
     margin: 0.5rem auto;
+  }
+
+  .courses .course h4 {
+    color: #1d1e18;
   }
 }
 
