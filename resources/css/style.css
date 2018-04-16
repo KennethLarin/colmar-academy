@@ -392,6 +392,10 @@ h5 {
     margin-bottom: 2rem;
   }
 
+  .courses h2 {
+    color: #fafafa;
+  }
+
   .courses .course {
     width: 100%;
     background-color: #fafafa;
