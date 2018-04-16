@@ -295,10 +295,28 @@ h4 {
     flex-flow: column;
   }
 
+  .news-bite:first-child {
+    color:inherit;
+    background-color: inherit;
+  }
+
+  .news-bite:first-child a {
+    color: #1e90ff;
+  }
+
+  .news-bite:first-child p {
+    color: inherit;
+  }
+
+  .news-bite:first-child h4 {
+    color: inherit;
+  }
+
   .news-bite .hidden {
     width: 100%;
     height: auto;
     display: block;
+    margin-bottom: 2rem;
   }
 
   .news-info {
